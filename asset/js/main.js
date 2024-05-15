@@ -1,5 +1,5 @@
 document.getElementById('downloadBtn').addEventListener('click', function() {
-    const fileUrl = '../asset/img/image/Screenshot (2).png'; // Path ke file yang benar
+    const fileUrl = 'https://github.com/Virgarakha/downloading/blob/main/asset/img/image/Screenshot%20(2).png'; // Path ke file yang benar
     const fileName = 'Ssan.png';  // Nama file yang diinginkan untuk didownload
 
     const link = document.createElement('a');
@@ -12,7 +12,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
 });
 
 document.getElementById('downloadBtn2').addEventListener('click', function() {
-    const fileUrl2 = '../asset/img/icon/Audryan virga rakha Kumara.zip'; // Path ke file yang benar
+    const fileUrl2 = 'https://github.com/Virgarakha/downloading/blob/main/asset/img/icon/Audryan%20virga%20rakha%20Kumara.zip'; // Path ke file yang benar
     const fileName2 = 'tugase.zip';  // Nama file yang diinginkan untuk didownload
 
     const link = document.createElement('a');
@@ -24,7 +24,7 @@ document.getElementById('downloadBtn2').addEventListener('click', function() {
     document.body.removeChild(link);
 });
 document.getElementById('downloadBtn3').addEventListener('click', function() {
-    const fileUrl3 = '../asset/js/File/anjay.html'; // Path ke file yang benar
+    const fileUrl3 = 'https://github.com/Virgarakha/downloading/blob/main/asset/js/File/anjay.html'; // Path ke file yang benar
     const fileName3 = 'ini.html';  // Nama file yang diinginkan untuk didownload
 
     const link = document.createElement('a');
